@@ -1,3 +1,34 @@
+.area  {
+ text-align: center;
+ 
+  color:  $secondaryColor;
+   
+
+  text-transform: uppercase ;
+  animation: blur 5.75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #F8D24E, 
+      0px 0px 25px #F8D24E,
+      0px 0px 25px #F8D24E,
+      0px 0px 25px #F8D24E,
+      0px 0px 25px #F8D24E,
+      0px 0px 25px #F8D24E,
+      0px 0px 25px #F8D24E,
+      0px 0px 50px #F8D24E,
+      0px 0px 50px #F8D24E,
+      0px 0px 50px #FCFCFC,
+      0px 0px 150px #FCFCFC,
+      0px 10px 100px #FCFCFC,
+     
+  }
+}
+
 
 .site-footer {
   background-color: $primaryColor;

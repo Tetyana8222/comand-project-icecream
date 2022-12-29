@@ -228,14 +228,11 @@
   }
 }
 
-// иконки
-
 .foot-social {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  gap: 30px;
-  
+  gap: 30px; 
 }
 
 .foot-social__link {

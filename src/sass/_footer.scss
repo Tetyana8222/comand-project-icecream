@@ -1,3 +1,5 @@
+
+
 .site-footer {
   background-color: $primaryColor;
 
@@ -216,7 +218,7 @@
   align-items: center;
   justify-content: center;
   transition:
-  // background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+ 
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 // после запятой bg, (прописываем, если нужно fill менять тоже)  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -233,40 +235,33 @@
 
 }
 
-
-// Эфект вспышки на site-footer__title
-
-.area  {
-  // text-align: center;
-  font-size: 4.1em;
-  color:  $secondaryColor;
-  // letter-spacing: -7px;
-
-  text-transform: uppercase ;
-  animation: blur 5.75s ease-out infinite;
-  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
-
-}
-
-@keyframes blur {
-  from {
-    text-shadow:0px 0px 10px #fff,
-      0px 0px 10px #F8D24E, 
-      0px 0px 25px #F8D24E,
-      0px 0px 25px #F8D24E,
-      0px 0px 25px #F8D24E,
-      0px 0px 25px #F8D24E,
-      0px 0px 25px #F8D24E,
-      0px 0px 25px #F8D24E,
-      0px 0px 50px #F8D24E,
-      0px 0px 50px #F8D24E,
-      0px 0px 50px #FCFCFC,
-      0px 0px 150px #FCFCFC,
-      0px 10px 100px #FCFCFC,
-      0px 10px 100px #FCFCFC,
-      0px 10px 100px #FCFCFC,
-      0px 10px 100px #FCFCFC,
-      0px -10px 100px #FCFCFC,
-      0px -10px 100px #FCFCFC;
-  }
-}
+.area {
+  
+   font-size: 4.1em;
+   color:  $secondaryColor;
+   
+ 
+   text-transform: uppercase ;
+   animation: blur 5.75s ease-out infinite;
+   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+ 
+ }
+ 
+ @keyframes blur {
+   from {
+     text-shadow:0px 0px 10px #fff,
+       0px 0px 10px #F8D24E, 
+       0px 0px 25px #F8D24E,
+       0px 0px 25px #F8D24E,
+       0px 0px 25px #F8D24E,
+       0px 0px 25px #F8D24E,
+       0px 0px 25px #F8D24E,
+       0px 0px 25px #F8D24E,
+       0px 0px 50px #F8D24E,
+       0px 0px 50px #F8D24E,
+       0px 0px 50px #FCFCFC,
+       0px 0px 150px #FCFCFC,
+       0px 10px 100px #FCFCFC,
+    
+   }
+ }
